@@ -12,46 +12,69 @@
 </head>
 <body>
    <div id="skip">
-       <a href="#header">Shortcuts to Header Area</a>
-       <a href="#intro">Shortcuts to Introduction Area</a>
-       <a href="#skill">Shortcuts to Skill Area</a>
-       <a href="#site">Shortcuts to Site Area</a>
-       <a href="#port">Shortcuts to Portfolio Area</a>
-       <a href="#contact">Shortcuts to Contact Area</a>
-       <a href="#footer">Shortcuts to Footer Area</a>
+      <a href="#header">Shortcuts to Header Area</a>
+      <a href="#intro">Shortcuts to Introduction Area</a>
+      <a href="#skill">Shortcuts to Skill Area</a>
+      <a href="#site">Shortcuts to Site Area</a>
+      <a href="#port">Shortcuts to Portfolio Area</a>
+      <a href="#contact">Shortcuts to Contact Area</a>
+      <a href="#footer">Shortcuts to Footer Area</a>
    </div>
    <!--//skip-->
 
    <header id="header" role="banner">
-        header
+      <div class="header__inner">
+         <div class="header__logo">
+                <a href="#">portfolio<em>vite</em></a>
+         </div>
+         <nav class="header__nav" role="navigation" aria-label="Main Menu">
+            <ul>
+               <li><a href="#intro">intro</a></li>
+               <li><a href="#skill">skill</a></li>
+               <li><a href="#site">site</a></li>
+               <li><a href="#port">portfolio</a></li>
+               <li><a href="#contact">contact</a></li>
+            </ul>
+         </nav>
+         <div
+           class="header__nav__mobile"
+           id="headerToggle"
+           aria-controls="primary-menu"
+           aria-expanded="false"
+           role="button"
+           tabindex="0"
+         >
+           <span></span>
+         </div>
+        </div>
    </header>
    <!--//header-->
 
    <main id="main" role="main">
-       <section id="intro">
-          intro
-       </section>
-       <!--//intro-->
+      <section id="intro">
+         intro
+      </section>
+      <!--//intro-->
 
-       <section id="skill">
-          skill
-       </section>
-       <!--//skill-->
+      <section id="skill">
+         skill
+      </section>
+      <!--//skill-->
 
-       <section id="site">
-          site
-       </section>
-       <!--//site-->
+      <section id="site">
+         site
+      </section>
+      <!--//site-->
 
-       <section id="port">
-          port
-       </section>
-       <!--//port-->
+      <section id="port">
+         port
+      </section>
+      <!--//port-->
 
-       <section id="contact">
-          contact
-       </section>
-       <!--//contact-->
+      <section id="contact">
+         contact
+      </section>
+      <!--//contact-->
 
    </main>
    <!--//main-->
