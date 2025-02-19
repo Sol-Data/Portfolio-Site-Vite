@@ -20,7 +20,7 @@ Preview :
 - Use vite (https://vite.dev/) to bundle and manage sites.
 - Use gsap (https://greensock.com/gsap) to give parallax effects.
 - Implement smooth effects with lenis (https://lenis.studiofreight.com/).
-- Deploy the site with netlify (https://www.netlify.com/).
+- Deploy the site with github pages (https://pages.github.com/).
 - Manage files using git (https://github.com/).
 - Design the basic layout of a website based on HTML and CSS, and work in compliance with web standards and web accessibility. [Accessible Rich Internet Applications (ARIA)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
 
