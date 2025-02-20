@@ -33,6 +33,6 @@ Preview :
 export default {
     root: "src",
     build: {
-    outDir: "../public",
+    outDir: "../dist",
     },
 };
