@@ -1,6 +1,8 @@
 export default {
     root: "src",
     build: {
-        outDir:"../public",
+        outDir:"../dist",
+        emptyOutDir: true,
     },
+    base:"/Portfolio-Site-Vite/",
 };

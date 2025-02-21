@@ -13,7 +13,7 @@ and analyze the strengths and weaknesses of each framework.
 In this project, you'll create four iterations of a portfolio concept site and learn how to use JavaScript frameworks to create sites efficiently.
 
 ## View the finished product 
-Preview :
+Preview : [Portfolio-Site-Vite](https://sol-data.github.io/Portfolio-Site-Vite/)
 
 ## Use Stack
 
@@ -28,11 +28,3 @@ Preview :
 - Install vite. `npm create vite@latest`
 - Install gsap. `npm install gsap`
 - Install lenis. `npm install @studio-freight/lenis`
-- After installing vite, configure it. Create a file called `vite.config.js` and write the following
-```javascript
-export default {
-    root: "src",
-    build: {
-    outDir: "../public",
-    },
-};
